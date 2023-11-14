@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de pagamento</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h1>Área de pagamento</h1>
+            </div>
+            <div class="card-body">
+                <form action="sucesso.html">
+                    <h5>Dados do pagamento:</h5>
+                    <hr>
+            </div>
+            <div class="card-body">
+                <form action="sucesso.html">
+
+                    <label>Selecione a bandeira do cartão:</label><br>
+                    <select class="form-control">
+                        <option>Visa</option>
+                        <option>MasterCard</option>
+                        <option>Elo</option>
+                    </select><br>
+
+                    <label>Número do cartão:</label><br>
+                    <input type="text" class="form-control w-50"><br>
+
+                    <label>Data de validade(MM/YY):</label><br>
+                    <input type="text" class="form-control w-50"><br>
+  
+                    <label>CVV:</label><br>
+                    <input type="text" class="form-control w-50"><br>
+
+                    <label>Parcelamento:</label><br>
+                    <select class="form-control">
+                        <option>1X</option>
+                        <option>2X</option>
+                        <option>3X</option>
+                        <option>4X</option>
+                        <option>5X</option>
+                        <option>6X</option>
+                        <option>7X</option>
+                        <option>8X</option>
+                        <option>9X</option>
+                        <option>10X</option>
+                    </select>
+
+                    <hr><br>
+                    
+                    
+                    <input type="reset" value="Limpar" class="btn btn-danger w-100"><br><br>
+                    <input type="submit" value="Pagar" class="btn btn-success w-100"><br><br>
+                    
+				</form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
